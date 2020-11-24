@@ -1,0 +1,35 @@
+
+/*.div_border {
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    border: 15px 20px;
+    border-style: dashed;
+    background-color: gray;
+    width: 600px;
+    height: 200px;
+    /*border-image: url('../img/2020-05-05-04-47-19.jpg');*/
+    /*background-repeat: no-repeat;}
+*/
+
+.div_center {
+        position: relative;
+        margin: auto;
+        margin-top: 200px;
+        border: 25px 50px;
+        border-style: dotted;
+        padding: 10px 20px;
+        text-align: center;
+        vertical-align: center;
+        background-color: pink;
+        width: 400px;
+        height: 200px;
+    }
+    table {
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    tr td {
+        text-align: center;
+    }
