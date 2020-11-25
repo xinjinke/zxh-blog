@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vue测试用例</title>
+	<script type="text/javascript" src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+	<div id="vue_det">
+		<table>
+			<tr>
+				<td>site:{{site}}</td>
+			</tr>
+			<tr>
+				<td>url:{{url}}</td>
+			</tr>
+			<tr>
+				<td>name:{{name}}</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript">
+		var data ={site:"高手教程",url:"https://zxh12.space",name:"zxh"};
+		var vm = new Vue({
+			el:'#vue_det',
+			data:data
+		});
+	</script>
+</body>
+</html>
